@@ -1,0 +1,55 @@
+/* Apply a forest theme to the entire app */
+
+body {
+  background-color: #1f2f16; /* Dark forest green background */
+  color: #fff; /* Text color */
+  font-family: Arial, sans-serif;
+  
+}
+body {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(13,34,4,1) 56%, rgba(4,63,7,1) 100%); ;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #3c3b3b; /* Slightly lighter forest green */
+  border: 2px solid #2e8b57; /* Sea Green border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Apply forest theme to buttons */
+
+.button {
+  background-color: #2e8b57; /* Sea Green button background */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1f6140; /* Darker Sea Green on hover */
+}
+
+/* Customize other elements as needed */
+
+h1 {
+  color: #fff; /* White headings */
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Add more styles as per your application's requirements */
+

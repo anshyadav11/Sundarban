@@ -1,0 +1,47 @@
+/* Gallery.css */
+body{
+    overflow: scroll;
+    /*background: rgb(28, 28, 41);*/
+    overflow-x:hidden;
+    background-color: #00460c;
+    opacity: 0.9;
+    background-image: radial-gradient(circle at center center, #038815, #00460c), repeating-radial-gradient(circle at center center, #038815, #038815, 16px, transparent 32px, transparent 16px);
+    background-blend-mode: multiply;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .pics {
+    cursor: pointer;
+    margin: 10px;
+    width: 25%;
+    border-radius: 10px;
+  }
+  
+  .pics img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .enlarged-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .enlarged-img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+  }
+  

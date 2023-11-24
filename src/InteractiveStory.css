@@ -1,0 +1,52 @@
+/* Updated CSS to center the App component */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #505050, #000000);
+  
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  
+  padding: 4%;
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  vertical-align: center;
+  width: 100%; /* Adjust the width as needed */
+  max-width: 100%; /* Set a maximum width if desired */
+  margin: auto; /* Center the dialog box both vertically and horizontally */
+}
+
+h1 {
+  color: white;
+}
+.bgimg{
+  
+  background:blur(3px);
+    backdrop-filter: blur(3px);
+}
+p {
+  color: white;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
